@@ -9,6 +9,7 @@ extern WriteFile
 
 STD_OUTPUT_HANDLE equ -11
 
+;Experimentar cada uno de los resultados para obtener los mensajes correspondientes a cada caso (mayor, menor, igual)
 section .data
     numero      dq 4
     msgMayor    db "El numero es mayor a 5", 13, 10

@@ -101,7 +101,8 @@ convertir_decimal:
     mov [result + 1], al
     ret
 
-; mostrar resultado
+; mostrar resultado 
+; cambio que pidio agregar el profesor las lineas sub rsp y add rsp
 mostrar_resultado:
     mov rcx, r12
     lea rdx, [result]
