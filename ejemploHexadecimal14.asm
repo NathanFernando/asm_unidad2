@@ -72,7 +72,7 @@ main:
     mov r8,13
     call imprimirTexto
 ; número de ejemplo
-    mov rax,305441741
+    mov rax,1024
     mov rcx,r12
     call convertirHex
 ; salto de línea
