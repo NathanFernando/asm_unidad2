@@ -11,7 +11,7 @@ STD_OUTPUT_HANDLE equ -11
 
 ;Experimentar cada uno de los resultados para obtener los mensajes correspondientes a cada caso (mayor, menor, igual)
 section .data
-    numero      dq 4
+    numero      dq 5
     msgMayor    db "El numero es mayor a 5", 13, 10
     lenMayor    equ $ - msgMayor
     msgMenor    db "El numero es menor a 5", 13, 10

@@ -24,12 +24,12 @@ main:
     mov rbx, rax                ; guardar handle
 
     ; USO DE LA PILA
-    mov rax, 6
+    mov rax, 5
     push rax                    ; push primer número
     mov rax, 4
     push rax                    ; push segundo número
     
-    pop rcx                     ; rcx = 6
+    pop rcx                     ; rcx = 5
     pop rdx                     ; rdx = 4
     add rcx, rdx                ; rcx = 10
 
@@ -47,7 +47,7 @@ main:
     ; Mostrar resultado
     mov rcx, rbx
     lea rdx, [digito]
-    mov r8d, 2
+    mov r8d, 4
     lea r9, [bytesEscritos]
     call WriteConsoleA
 

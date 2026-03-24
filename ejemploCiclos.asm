@@ -55,7 +55,7 @@ ciclo_numeros:
     call WriteFile
 
     mov rcx, r13
-    inc rcx             ; contador++
+    inc rcx        ; contador++
     jmp ciclo_numeros
 
 fin_programa:
